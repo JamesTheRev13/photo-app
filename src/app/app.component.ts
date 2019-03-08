@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'photo-app';
+  sampleMessage = 'This right here is a sample message!';
+
+  sampleMethod() {
+    console.log('This right here is a message from your sample method!');
+  }
 }
